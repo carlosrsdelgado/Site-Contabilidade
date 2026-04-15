@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #0d1b2a;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+#inicio {
+  background: #1b263b;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+#inicio button {
+  padding: 10px 20px;
+  border: none;
+  background: #00b4d8;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #f1f1f1;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #0d1b2a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+.banner {
+  width: 100%;
+  height: auto;
+}
